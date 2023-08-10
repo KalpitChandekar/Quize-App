@@ -19,14 +19,13 @@ body {
 
 #box {
   width: 40%;
-  height: 400px;
   padding: 15px;
   box-shadow: 0 0 5px gray;
   background-color: wheat;
   border-radius: 5px;
 }
 
-.row{
+.row {
   margin: 30px;
   margin-left: 0;
 }
