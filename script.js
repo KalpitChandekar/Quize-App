@@ -15,8 +15,12 @@ const quentions = [
     d: "none of the above",
     correct: " b",
   },
-
-  
-
-
+  {
+    que: "What does CSS stands for?",
+    a: "Hypertext Markup languge",
+    b: "Cascading Style Shit",
+    c: "Javascript",
+    d: "none of the above",
+    correct: " b",
+  },
 ];
