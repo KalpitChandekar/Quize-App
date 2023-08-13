@@ -7,4 +7,16 @@ const quentions = [
     d: "PHP",
     correct: "a",
   },
+  {
+    que: "What year was Javascript launched?",
+    a: "1999",
+    b: "1995",
+    c: "1996",
+    d: "none of the above",
+    correct: " b",
+  },
+
+  
+
+
 ];
