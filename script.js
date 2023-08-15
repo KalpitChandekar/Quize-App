@@ -24,3 +24,9 @@ const quentions = [
     correct: " b",
   },
 ];
+
+let index = 0;
+
+const loadqueston= () => {
+  
+};
