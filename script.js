@@ -41,11 +41,18 @@ const loadQuestion = () => {
   optionInputs[3].nextElementSibling.textContent = data.d;
 };
 
+const clearRadioSelection = () => {
+  optionInputs.forEach((input) => {
+    input.checked = false;
+  });
+};
+
 loadQuestion();
 
 submitButton.addEventListener("click", () => {
   index++;
   if (index < questions.length) {
+    clearRadioSelection();
     loadQuestion();
   } else {
     quesBox.innerHTML = "<h2>Quiz Completed!</h2>";
