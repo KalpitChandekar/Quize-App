@@ -33,5 +33,5 @@ const loadqueston = () => {
   console.log(data);
   quesBox.innerHTML = '${index+1} ${data.que}';
 
-  
+  optionInputs[0].nextElementSibling.innerHTML = data.a;
 };
