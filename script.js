@@ -28,7 +28,10 @@ const quentions = [
 let index = 0;
 const quesBox = document.getElementById("quesBox");
 const optionInputs = document.querySelectorAll(".option");
-const loadqueston= () => {
-  
+const loadqueston = () => {
+  const data = quentions[index];
+  console.log(data);
+  quesBox.innerHTML = '${index+1} ${data.que}';
 
+  
 };
