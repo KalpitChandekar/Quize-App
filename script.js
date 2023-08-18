@@ -26,7 +26,9 @@ const quentions = [
 ];
 
 let index = 0;
-
+const quesBox = document.getElementById("quesBox");
+const optionInputs = document.querySelectorAll(".option");
 const loadqueston= () => {
   
+
 };
